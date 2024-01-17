@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>lobby</title>
-</head>
-<body>
-<h2>lobby</h2>
-</body>
-</html>
+{% extends 'base/main.html'%}
+{% load static %}
+
+{% block content %}
+
+<main>
+    <header id="form-container">
+        <img id="logo" src="{% static 'images/chat-icon.jpg' %}">
+
+    <div>
+        <h1>Welcome to Mychat</h1>
+        <p>A group video calling application just for you!</p>
+    </div>
+    </header>
+
+</main>
+
+
+
+{% endblock content %}
