@@ -25,3 +25,11 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*.......Room Styling.....*/
+.video-container{
+    border: 1px solid rgb(75, 93, 172, 1);
+    border-radius: 5px;
+    margin: 2px;
+    background-color :rgba(198, 202, 219, 1);
+}
